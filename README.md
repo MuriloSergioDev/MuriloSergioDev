@@ -1,5 +1,5 @@
 ## Hi there 👋
-My name is Murilo I'm a frontend developer with 5 + years of experience in developing web applications and systems. I'm skilled at writing clear, concise code that is easy to maintain and troubleshoot. I have played a crucial role in contributing to the success of various companies by delivering high-quality software solutions with a focus on React.js and Angular development.
+My name is Murilo I'm a fullstack developer with 5 + years of experience in developing web applications and systems. I'm skilled at writing clear, concise code that is easy to maintain and troubleshoot. I have played a crucial role in contributing to the success of various companies by delivering high-quality software solutions with a focus on React.js and Angular development.
 
 ## ⭐ Expertise in:
 - TypeScript and CSS-In-JS (styled-components)
