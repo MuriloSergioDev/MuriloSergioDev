@@ -2,7 +2,7 @@
 
 **Senior Full-Stack Software Engineer** · Remote from Brazil 🇧🇷 · EST/PST Full Overlap
 
-6+ years building and scaling production systems for UK, Irish, and international teams across **fintech**, **govtech**, and **e-commerce**. I care deeply about software architecture, clean APIs, and shipping things that actually hold up at scale.
+7+ years building and scaling production systems for UK, Irish, and international teams across **fintech**, **govtech**, and **e-commerce**. I care deeply about software architecture, clean APIs, and shipping things that actually hold up at scale.
 
 📬 msccarmo2@gmail.com · [LinkedIn](https://linkedin.com/in/murilo-do-carmo) · [GitHub](https://github.com/MuriloSergioDev)
 
@@ -11,13 +11,13 @@
 ## 🛠️ Tech Stack
 
 **Languages**
-`TypeScript` `JavaScript` `PHP` `HTML5` `CSS3`
+`TypeScript` `JavaScript` `Python` `Java` `C#` `PHP` `HTML5` `CSS3`
 
 **Frontend**
 `React` `Next.js` `Angular` `AngularJS` `TailwindCSS`
 
 **Backend**
-`Node.js` `Express` `NestJS` `Laravel` `GraphQL` `REST APIs`
+`Node.js` `Express` `NestJS` `Laravel` `FastAPI` `Spring Boot` `.Net` `GraphQL` `REST APIs`
 
 **AI / LLM**
 `OpenAI API` `LangChain` `RAG Pipelines` `Prompt Engineering`
@@ -26,7 +26,10 @@
 `PostgreSQL` `MongoDB` `MySQL` `SQLite`
 
 **Cloud & DevOps**
-`AWS (EC2, S3, CloudFront, Lambda)` `Docker` `GitHub Actions` `Vercel`
+`AWS (EC2, S3, CloudFront, Lambda)` `Docker` `Kubernetes` `GitHub Actions` `Vercel`
+
+**Observability**
+`OpenTelemetry` `Datadog` `Prometheus` `Grafana`
 
 **Testing**
 `Jest` `Playwright` `Cypress` — unit, integration & end-to-end
@@ -36,15 +39,18 @@
 ## 💼 Experience Highlights
 
 **Cezanne HR** — Senior Full-Stack Engineer *(2025 – Present, London UK · Remote)*
-- Redesigned a recruitment platform UI for 5,000+ users → +35% engagement, -30% load time
-- Led AngularJS → React + TypeScript migration → -20% runtime errors
-- Built AI-powered CV scoring with OpenAI API → -30% recruiter screening time
-- Raised automated test coverage by 40 pp across a 10-engineer team
+- Designed and optimized backend services for high-concurrency workloads, improving API throughput and reliability through asynchronous processing, database optimization, caching, and efficient resource utilization. 
+- Led architecture and system design for a recruitment platform composed of 12+ containerized microservices, focusing on scalability, reliability, and distributed system design. 
+- Redesigned the job listing UI/UX, increasing user engagement by 35% and reducing page load times by 30%, measured through Google Lighthouse and product analytics. 
+- Implemented security best practices, including XSS prevention, Content Security Policy (CSP), secure authentication flows, and protection against common web vulnerabilities.
+- Accelerated the AngularJS-to-React migration by building an AI-assisted refactoring workflow using Claude Code, cutting per-component conversion time by ~60% and overall migration time by ~30% across 80+ components.
+- Built AI-powered CV scoring and summarization features using the OpenAI API, reducing manual recruiter screening time by 30% and accelerating candidate shortlisting workflows.
 
 **Occupop** — Senior Full-Stack Engineer *(2023 – 2025, Dublin Ireland · Remote)*
-- Optimized Node.js & Laravel APIs → ~25% faster response times, -10% infra costs
-- Resolved critical bottlenecks in a multi-tenant SaaS platform through system design analysis
-- Introduced integration testing practices that measurably reduced production incidents
+- Led performance optimization and API redesign for Node.js and Python services, achieving ~25% faster average response times and reducing infrastructure costs by 10%.
+- Optimized frontend performance by implementing caching strategies, code splitting, lazy loading, and bundle analysis, improving Core Web Vitals (LCP, CLS, and INP), reducing load times, and delivering a faster user experience. 
+- Identified and resolved critical performance bottlenecks across application and data layers, improving platform throughput and scalability for a multi-tenant SaaS environment.
+- Partnered with product, design, and QA teams to translate business requirements into scalable engineering solutions; introduced integration testing practices that measurably reduced production incidents.
 
 **Techlead IT Solutions** — Software Engineer *(2022 – 2023, Brazil · Remote)*
 - Built microservices architecture for government judicial systems processing 500+ cases/month
