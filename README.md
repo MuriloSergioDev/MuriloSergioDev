@@ -2,7 +2,11 @@
 
 **Senior Full-Stack Software Engineer** · Remote from Brazil 🇧🇷 · EST/PST Full Overlap
 
-7+ years building and scaling production systems for UK, Irish, and international teams across **fintech**, **govtech**, and **e-commerce**. I care deeply about software architecture, clean APIs, and shipping things that actually hold up at scale.
+Senior Full-Stack Software Engineer with 7+ years of experience architecting and scaling production systems for international teams. 
+
+Strong background in microservices, distributed systems, high-concurrency services, API design, cloud infrastructure, and performance optimization. Proven track record of leading architectural migrations, optimizing backend and database performance, building resilient services, and implementing security practices. Experienced with AI-assisted development using Claude Code and AI-powered products using OpenAI and LangChain. 
+
+I enjoy tackling complex technical challenges, taking ownership of systems end-to-end, and collaborating with distributed teams to build reliable software that delivers real-world impact.
 
 📬 msccarmo2@gmail.com · [LinkedIn](https://linkedin.com/in/murilo-do-carmo) · [GitHub](https://github.com/MuriloSergioDev)
 
