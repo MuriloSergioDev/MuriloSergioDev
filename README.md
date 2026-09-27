@@ -39,17 +39,16 @@
 ## 💼 Experience Highlights
 
 **Cezanne HR** — Senior Full-Stack Engineer *(2025 – Present, London UK · Remote)*
-- Designed and optimized backend services for high-concurrency workloads, improving API throughput and reliability through asynchronous processing, database optimization, caching, and efficient resource utilization. 
-- Led architecture and system design for a recruitment platform composed of 12+ containerized microservices, focusing on scalability, reliability, and distributed system design. 
-- Redesigned the job listing UI/UX, increasing user engagement by 35% and reducing page load times by 30%, measured through Google Lighthouse and product analytics. 
-- Implemented security best practices, including XSS prevention, Content Security Policy (CSP), secure authentication flows, and protection against common web vulnerabilities.
+- Built and operated microservices on Kubernetes/EKS with health checks, autoscaling, and production observability using OpenTelemetry, Prometheus, and Grafana. 
+- Designed Kafka-based event-driven pipelines using producers, consumers, and batching strategies to process high-volume workloads asynchronously, with Redis caching to improve throughput and reduce synchronous API processing. 
+- Integrated dependency and container security scanning into CI/CD and applied OWASP-aligned practices across authentication, authorization, input validation, API security, and common web vulnerabilities.
 - Accelerated the AngularJS-to-React migration by building an AI-assisted refactoring workflow using Claude Code, cutting per-component conversion time by ~60% and overall migration time by ~30% across 80+ components.
 - Built AI-powered CV scoring and summarization features using the OpenAI API, reducing manual recruiter screening time by 30% and accelerating candidate shortlisting workflows.
 
 **Occupop** — Senior Full-Stack Engineer *(2023 – 2025, Dublin Ireland · Remote)*
-- Led performance optimization and API redesign for Node.js and Python services, achieving ~25% faster average response times and reducing infrastructure costs by 10%.
-- Optimized frontend performance by implementing caching strategies, code splitting, lazy loading, and bundle analysis, improving Core Web Vitals (LCP, CLS, and INP), reducing load times, and delivering a faster user experience. 
-- Identified and resolved critical performance bottlenecks across application and data layers, improving platform throughput and scalability for a multi-tenant SaaS environment.
+- Optimized PostgreSQL performance for a high-volume CV database through query tuning, EXPLAIN ANALYZE, indexing, partitioning, and schema optimization, reducing query execution time and database load.
+- Architected and led the migration of a legacy monolithic platform to a microservice architecture, defining service boundaries, communication patterns, data ownership, and migration strategy to enable independently deployable and scalable services. 
+- Optimized frontend performance by implementing caching strategies, code splitting, lazy loading, and bundle analysis, improving Core Web Vitals (LCP, CLS, and INP), reducing load times, and delivering a faster user experience.
 - Partnered with product, design, and QA teams to translate business requirements into scalable engineering solutions; introduced integration testing practices that measurably reduced production incidents.
 
 **Techlead IT Solutions** — Software Engineer *(2022 – 2023, Brazil · Remote)*
