@@ -42,34 +42,41 @@ I enjoy tackling complex technical challenges, taking ownership of systems end-t
 
 ## 💼 Experience Highlights
 
-**Cezanne HR** — Senior Full-Stack Engineer *(2025 – Present, London UK · Remote)*
-- Built and operated microservices on Kubernetes/EKS with health checks, autoscaling, and production observability using OpenTelemetry, Prometheus, and Grafana. 
-- Designed Kafka-based event-driven pipelines using producers, consumers, and batching strategies to process high-volume workloads asynchronously, with Redis caching to improve throughput and reduce synchronous API processing. 
-- Integrated dependency and container security scanning into CI/CD and applied OWASP-aligned practices across authentication, authorization, input validation, API security, and common web vulnerabilities.
-- Accelerated the AngularJS-to-React migration by building an AI-assisted refactoring workflow using Claude Code, cutting per-component conversion time by ~60% and overall migration time by ~30% across 80+ components.
-- Built AI-powered CV scoring and summarization features using the OpenAI API, reducing manual recruiter screening time by 30% and accelerating candidate shortlisting workflows.
+**Zendrop** — Senior Full-Stack Engineer *(2026 – Present, West Palm Beach Florida USA · Remote)*
+
+**Cezanne HR** — Senior Full-Stack Engineer *(2025 – 2026, London UK · Remote)*
+- Defined the team’s standards for AI-assisted development (CLAUDE.md conventions, required tests and CI gates for agent-written PRs) and built evals to measure them (40 replayed tickets scored on tests, CI and review acceptance), raising agent-PR merge-without-rework rate from 52% to 74%.
+- Built event-driven middleware connecting the platform to third-party payroll providers using SQS/SNS pub/sub, idempotent consumers, retries and dead-letter queues, which eliminated 88% of failed-sync support tickets and cut p95 API latency by 35%. 
+- Built serverless integration endpoints on Lambda and API Gateway for webhook intake and outbound vendor call, with CloudWatch/Datadog alerting on sync failures and queue backlog. 
+- Built Kafka-based asynchronous pipelines processing 2M events/day. Wrote the RFC and set the event-contract conventions now shared across the platform’s services. 
+- Mentored 2 engineers on event-driven design and onboarded the team onto the agent-PR workflow; part of the on-call rotation for payroll pipelines.
 
 **Occupop** — Senior Full-Stack Engineer *(2023 – 2025, Dublin Ireland · Remote)*
-- Optimized PostgreSQL performance for a high-volume CV database through query tuning, EXPLAIN ANALYZE, indexing, partitioning, and schema optimization, reducing query execution time and database load.
-- Architected and led the migration of a legacy monolithic platform to a microservice architecture, defining service boundaries, communication patterns, data ownership, and migration strategy to enable independently deployable and scalable services. 
-- Optimized frontend performance by implementing caching strategies, code splitting, lazy loading, and bundle analysis, improving Core Web Vitals (LCP, CLS, and INP), reducing load times, and delivering a faster user experience.
-- Partnered with product, design, and QA teams to translate business requirements into scalable engineering solutions; introduced integration testing practices that measurably reduced production incidents.
+- Led the monolith-to-microservices migration: defined service boundaries, data ownership and a strangler-fig rollout, splitting off 12 services and cutting deploy time from 45 min to under 10. 
+- Cut PostgreSQL p95 query time from 800 ms to 120 ms through indexing, partitioning and EXPLAIN ANALYZE tuning, reducing database CPU by 43%. 
+- Modeled DynamoDB access patterns for candidate activity feeds, serving 1.5K req/s at single-digit-millisecond latency.
+- Improved LCP from 4.1 s to 1.9 s with code splitting, lazy loading and caching, so every Core Web Vital passed and candidate application drop-off fell 16%. 
+- Hardened API security with OAuth2 scopes, input validation and container/dependency scanning in CI, closing all high-severity pentest findings before an ISO 27001 audit.
 
 **Techlead IT Solutions** — Software Engineer *(2022 – 2023, Brazil · Remote)*
-- Built microservices architecture for government judicial systems processing 500+ cases/month
-- Grew test coverage from near-zero to 80%
-- Mentored 5 junior developers through code reviews and Agile practices
+- Built a serverless document-processing pipeline (S3 → SQS → Lambda) for PDF ingestion and ICP-Brasil digital-signature validation, handling 50K documents/month with retries and dead-letter queues. 
+- Developed backend services in Java (Spring Boot) and Node.js/TypeScript for event-driven case workflows, modelling case lifecycles as explicit state machines to route work across 15 court departments. 
+- Integrated with external government systems and signature-validation services through REST APIs, with role-based access control and immutable audit trails for LGPD compliance. 
+- Raised test coverage from near zero to 80% by setting up unit, integration and E2E testing in CI, reducing production defects by 50%. 
+- Mentored 3 junior developers through code reviews and design guidance; two were promoted to mid-level within a year.
 
-**Bredi** — Software Engineer *(2021 – 2022, Brazil)*
-- Built reusable component systems → -30% new-feature dev time
-- Automated CI/CD on GitHub Actions → -50% deployment time, 2× release frequency
-- Integrated Stripe & PayPal supporting ~$100K/month in transactions
+**Bredi** — Software Engineer *(2020 – 2022, Brazil)*
+- Designed a shared multi-tenant eCommerce core (catalog, cart, checkout, auth and payments as reusable modules), cutting new-store setup from 6 weeks to 2.
+- Built an idempotent add-to-cart → checkout → payment flow integrating the Mercado Pago and PagSeguro APIs, using idempotency keys and webhook reconciliation to eliminate duplicate charges and orphaned orders.
+- Owned the order lifecycle (created → paid → fulfilled → refunded), syncing payment-status webhooks with order state.
+- Prevented overselling during flash sales with PostgreSQL row-level locking and short-lived stock reservations, handling 10x normal traffic with zero inventory mismatches.
+- Cut product-listing API response time from 1.2 s to 200 ms with Redis caching, cursor pagination and indexing, improving mobile storefront performance.
 
 ---
 
 ## 🎓 Education & Certifications
 
-- 🎓 **B.Eng. Computer Engineering** — Federal University of Pará (UFPA), 2023
+- 🎓 **B.Sc. Computer Engineering** — Federal University of Pará (UFPA), 2023
 - ☁️ **AWS Certified Cloud Practitioner**
 - ⚛️ **Meta React Developer Certificate**
 
